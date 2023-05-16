@@ -1,0 +1,401 @@
+@font-face {
+  font-family: 'bootle';
+  src: url(bottle.TTF);
+
+  @import url(https://fonts.google.com/specimen/Public+Sans);
+
+
+}
+
+header {
+  height: auto;
+  border-bottom: 10px solid black;
+  border-radius: 20px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  background-color: white;
+
+}
+
+header>nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  /*
+        gap da espacio, al igual al margin da el espacion con resecto a otros elementps
+        */
+  padding: 0px 60px 8px 10px;
+  position: absolute;
+  top: 90px;
+  right: 0;
+  font-family: bootle, sans-serif;
+
+}
+
+header>img {
+
+  margin: left 10px;
+
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+
+  padding: 20px;
+  padding-top: 15vh;
+
+
+}
+
+
+footer {
+
+  align-self: flex-end;
+  background-color: black;
+  border-radius: 15px;
+  ;
+  padding: 50px;
+  left: 0;
+  width: auto;
+  height: 100%;
+  color: white;
+  text-align: center;
+}
+
+.posicion {
+
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+}
+
+.posicion img {
+
+  border-radius: 10px;
+  align-items: center;
+
+}
+
+#fondo-3 {
+
+
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  display: flex;
+
+
+}
+
+.radius {
+
+
+  flex: 1;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  flex-direction: column;
+
+
+
+}
+
+.album-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+
+}
+
+.album-item h3 {
+
+
+  font-family: bootle, sans-serif;
+  width: 100%;
+  text-align: left;
+  text-decoration-thickness: auto;
+
+}
+
+.album-item picture {
+
+  display: flex;
+  width: 20%;
+  height: 100%;
+  flex: 1;
+  margin: 5px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-direction: column;
+
+}
+
+.album-item iframe {
+
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  margin: 10px 0px 30px 20px;
+  border-radius: 20px;
+
+
+}
+
+.singer-item {
+
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 1rem;
+  justify-content: space-between;
+  border: 10px solid rgb(24, 118, 124);
+  border-radius: 10px;
+  gap: 10px;
+
+
+
+}
+
+.singer-item h3 {
+  font-family: bootle, sans-serif;
+  width: 100%;
+  text-align: left;
+  text-decoration-thickness: auto;
+
+}
+
+.singer-item p {
+
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+
+
+
+
+}
+
+.singer-item img {
+
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+
+}
+
+.singer-item iframe {
+
+
+  align-items: center;
+
+  border-radius: 20px;
+}
+
+p {
+
+  font-family: public-sans, sans-serif;
+}
+
+
+
+
+.titulo {
+
+  font-family: bootle, sans-serif;
+  text-align: center;
+  text-decoration-line: underline;
+  margin: 50px;
+
+
+
+}
+
+#subtitulo {
+
+  font-family: bootle, sans-serif;
+  text-align: center;
+  text-decoration-thickness: auto;
+  text-decoration-line: underline;
+
+}
+
+
+span {
+
+  padding: 10px;
+
+}
+
+
+#border {
+  border-top: 70px solid transparent;
+  padding: 15px;
+  border-image: url(https://37.media.tumblr.com/tumblr_lf4sqv2LxQ1qzb7rzo1_500.gif) 70 round;
+}
+
+
+
+#border1 {
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://i.etsystatic.com/21344014/r/il/e293b5/2096119469/il_570xN.2096119469_gk5h.jpg) 135 round;
+}
+
+
+
+#banerWith {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://m.media-amazon.com/images/I/71t+3TY90PL._AC_UF894,1000_QL80_.jpg) 135 round;
+
+}
+
+#banerbfs {
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://canaldosbeatles.files.wordpress.com/2013/06/rs2.png) 135 round;
+}
+
+#banerahdn {
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://m.media-amazon.com/images/S/aplus-media-library-service-media/03e5b0ee-1aef-49cf-8b77-b4d46b80f89a.__CR0,0,970,300_PT0_SX970_V1___.jpg) 135 round;
+}
+
+#banerHelp {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://www.thefilmagazine.com/wp-content/uploads/2019/06/Help-Beatles-Movie-Banner.jpg) 135 round;
+
+}
+
+#banerRubber {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRKNmz9HFs2fGJ1SYfsYtzbv666Hn9v4dffQ&usqp=CAU) 100 round;
+
+}
+
+#banerRevolver {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://es.rollingstone.com/wp-content/uploads/2022/08/Giles-Martin-confirma-edicion-de-lujo-de-Revolver-de-The-Beatles.jpg) 135 round;
+
+}
+
+#banerSgt {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://dekalbcountycvb.com/wp-content/uploads/2022/03/beatles-ce-copy.jpg) 135 round;
+
+}
+
+#banerMagical {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://c8.alamy.com/compes/2h5j5y5/vintage-single-record-cover-beatles-the-magical-mystery-tour-doble-ep-uk-1967-01-2h5j5y5.jpg) 110 round;
+
+}
+
+#banerSubmarine {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://images.squarespace-cdn.com/content/v1/5d781378751c4a68f33aecfc/1675697622241-19A7AAXJ34WEAPLA1522/facebook-banner.jpg?format=2500w) 100 round;
+
+}
+
+
+#banerAR {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://los40es00.epimg.net/los40/imagenes/2018/09/26/los40classic/1537954405_106365_1569490515_noticia_normal.jpg) 25 round;
+
+}
+
+
+
+
+#banerlib {
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://beatlesblogger.files.wordpress.com/2021/11/cropped-beatles-let-it-be-banner-3.jpeg) 135 round;
+
+}
+
+#banerWhite {
+
+  border-top: 30px solid transparent;
+  padding: 15px;
+  border-image: url(https://elcafetindelas5.files.wordpress.com/2011/09/untitled.jpg?w=578) 78 round;
+
+}
+
+
+.decoracion {
+  margin-left: 80px;
+}
+
+
+
+@media screen and (max-width: 1280px) {
+  #radius img {
+    width: calc(80vw - 2rem);
+    height: calc(80vh - 2rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #radius img {
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 2rem);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .album-item picture {
+    width: calc(80vw - 2rem);
+    height: calc(80vh - 2rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .album-item picture {
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 2rem);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  iframe {
+    width: calc(80vw - 2rem);
+    height: calc(80vh - 2rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  iframe {
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 2rem);
+  }
+}

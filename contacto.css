@@ -1,0 +1,69 @@
+@import url(https://fonts.google.com/specimen/Public+Sans);
+
+.form-container {
+  max-width: 400px;
+  max-height: 200px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+.form-container input[type="email"],
+.form-container input[type="tel"],
+.form-container input[type="range"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+header {
+  height: auto;
+  border-bottom: 10px solid black;
+  border-radius: 20px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  background-color: white;
+
+}
+
+#gif {
+
+  right: 0;
+  width: 140px;
+  height: 125px;
+  position: fixed;
+  margin-right: 50px;
+  border-radius: 10px;
+
+}
+
+body {
+
+  padding: 20px;
+  padding-top: 15vh;
+  background-image: url(https://static01.nyt.com/images/2021/11/14/arts/14beatles1/14beatles1-mediumSquareAt3X.jpg);
+
+}
+
+article {
+  position: center;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .form-container {
+    width: calc(80vw - 2rem);
+    height: calc(80vh - 2rem);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: calc(100vw - 2rem);
+    height: calc(100vh - 2rem);
+  }
+}
